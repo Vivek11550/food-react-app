@@ -1,0 +1,49 @@
+.nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    background: transparent;
+    
+    
+}
+
+.nav-right{
+
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.nav-btn{
+      
+    border-radius: 15px;
+    padding: 10px 30px;
+    transition:3s;
+    color: tomato;
+}
+
+.nav-btn:hover{
+    cursor: pointer;
+}
+
+.Navbar-menue{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    list-style: none;
+
+}
+
+.Navbar-menue:hover{
+cursor: pointer;
+
+}
+
+.dot{
+    
+    background-color: tomato;
+    width: 10px;
+    border-radius: 2px;
+
+}
